@@ -65,7 +65,6 @@ D:\C#\udemy\FirstMvcProject\bin\System.Web.Webpages.Razor.xml
 D:\C#\udemy\FirstMvcProject\bin\System.Web.Helpers.xml
 D:\C#\udemy\FirstMvcProject\bin\System.Web.Mvc.xml
 D:\C#\udemy\FirstMvcProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-D:\C#\udemy\FirstMvcProject\obj\Debug\FirstMvcProject.csproj.AssemblyReference.cache
 D:\C#\udemy\FirstMvcProject\obj\Debug\FirstMvcProject.csproj.CoreCompileInputs.cache
 D:\C#\udemy\FirstMvcProject\obj\Debug\FirstMvcProject.csproj.CopyComplete
 D:\C#\udemy\FirstMvcProject\obj\Debug\FirstMvcProject.dll
