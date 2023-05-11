@@ -24,8 +24,17 @@ namespace FirstMvcProject.Controllers
             employee2.Name = "Bui";
             employee2.Salary = 6000;
             employeeList.Add(employee2);
-
+            ViewData["Age"] = 20;
+            ViewBag.Job = "Engineer";
+            string company2 = "Hello";
+            TempData["Company"] = company2;
             return View(employeeList);
+
+        }
+        public JsonResult GetDateWithJson()
+        {
+            string JsonDate = DateTime.Today.ToShortDateString();
+            return Json(JsonDate);
         }
 
         public ActionResult AddEmployee()
