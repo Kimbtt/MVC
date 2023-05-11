@@ -46,14 +46,21 @@ namespace FirstMvcProject.Controllers
         [HttpPost]
         public ActionResult AddEmployee(Employee employee)
         {
-            return View();
+            string textValue = "";
+            if (ModelState.IsValid)
+                textValue = "Model State is Valid";
+            else
+                textValue = "model State is not Valide";
+            return View(employee);
         }
 
         public ActionResult UpdateEmployee()
         {
             Employee employee = new Employee();
             employee.ID = 1;
-            employee.Name = "dfsfdsd";
+            string company = (string)TempData["Company"];
+            
+            employee.Name = company;
             employee.Salary = 1000;
             return View(employee);
         }
